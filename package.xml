@@ -62,6 +62,8 @@
         <members>Case.SLAViolation__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Customer__c.Contact__c</members>
+        <members>Customer__c.Next_of_kin__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
@@ -82,6 +84,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Customer__c</members>
         <members>Deployment_Custom__c</members>
         <members>Repair__c</members>
         <members>Request__c</members>
@@ -93,6 +96,7 @@
         <name>CustomPermission</name>
     </types>
     <types>
+        <members>Customer__c</members>
         <members>Request__c</members>
         <name>CustomTab</name>
     </types>
@@ -123,6 +127,7 @@
         <members>Contact-Contact Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
+        <members>Customer__c-Customer Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>Deployment_Custom__c-Deployment Custom Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
@@ -186,6 +191,7 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
+        <members>Customer__c.All</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
@@ -319,6 +325,7 @@
         <name>Role</name>
     </types>
     <types>
+        <members>Customer__c</members>
         <members>Deployment_Custom__c</members>
         <members>Repair__c</members>
         <members>Request__c</members>

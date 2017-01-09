@@ -167,6 +167,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Customer__c.Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Customer__c.Next_of_kin__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Goal.OrigGoalId__c</field>
         <readable>false</readable>
@@ -356,6 +366,9 @@
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer__c-Customer Layout</layout>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>TestPage</apexPage>
         <enabled>false</enabled>
@@ -370,6 +383,10 @@
         <recordType>Metric.Progress</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Customer__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Request__c</tab>
         <visibility>DefaultOn</visibility>
